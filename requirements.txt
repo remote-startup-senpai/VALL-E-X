@@ -5,6 +5,8 @@ torchvision
 torchaudio
 tokenizers
 encodec
+ipywidgets
+jupyter
 langid
 wget
 unidecode
