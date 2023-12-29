@@ -161,6 +161,7 @@ cython_debug/
 checkpoints/
 whisper/
 customs/
+/*.wav
 
 # macOS
 .DS_Store
