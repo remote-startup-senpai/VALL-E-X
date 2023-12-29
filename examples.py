@@ -39,6 +39,14 @@ infer_from_audio_examples = [
         None,
         "無理だったかもしれない。無茶だったかもしれない。でも、無駄じゃなかった。",
     ],
+    [
+        "この会社は最高だぜ！",
+        "日本語",
+        "no-accent",
+        "prompts/ja-male-2.wav",
+        None,
+        "羽川がなんでもしてくれるの？やった！",
+    ],
     ["你可以听得出来我有多困。", "中文", "no-accent", "prompts/en-1.wav", None, ""],
     ["この文は、クロスリンガル合成の例です。", "日本語", "no-accent", "prompts/zh-2.wav", None, ""],
     [
