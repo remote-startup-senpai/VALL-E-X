@@ -50,21 +50,12 @@ pip install -r requirements.txt
 
 When you run the program for the first time, it will automatically download the corresponding model. 
 
-If the download fails and reports an error, please follow the steps below to manually download the model.
+If the download fails and reports an error, please run the following script to setup the necessary folders and download the models:
 
-(Please pay attention to the capitalization of folders)
+```
+./init_models.sh
+```
 
-1. Check whether there is a `checkpoints` folder in the installation directory. 
-If not, manually create a `checkpoints` folder (`./checkpoints/`) in the installation directory.
-
-2. Check whether there is a `vallex-checkpoint.pt` file in the `checkpoints` folder. 
-If not, please manually download the `vallex-checkpoint.pt` file from [here](https://huggingface.co/Plachta/VALL-E-X/resolve/main/vallex-checkpoint.pt) and put it in the `checkpoints` folder.
-
-3. Check whether there is a `whisper` folder in the installation directory. 
-If not, manually create a `whisper` folder (`./whisper/`) in the installation directory.
-
-4. Check whether there is a `medium.pt` file in the `whisper` folder. 
-If not, please manually download the `medium.pt` file from [here](https://openaipublic.azureedge.net/main/whisper/models/345ae4da62f9b3d59415adc60127b97c714f32e89e936602e85993674d08dcb1/medium.pt) and put it in the `whisper` folder.
 
 ##  🎧 Demos
 Not ready to set up the environment on your local machine just yet? No problem! We've got you covered with our online demos. You can try out VALL-E X directly on Hugging Face or Google Colab, experiencing the model's capabilities hassle-free!
