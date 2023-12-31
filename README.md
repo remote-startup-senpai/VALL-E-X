@@ -21,5 +21,5 @@ pip install -r requirements.txt
 ### Execution
 
 You can use either of the following:
+  - the Gradio demo by running `python launch-ui.py` and using the app on http://localhost:7860 (opens automatically)
   - the code version in [`start.ipynb`](start.ipynb)
-  - the Gradio demo by running `python launch-ui.py` and accessing
