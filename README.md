@@ -16,7 +16,7 @@ More details about the model in the [thorough README](README-EN-long.md).
 pip install -r requirements.txt
 ```
 
-2. (Optional) This is run automatically when you execute for the first time. However, if you'd like to setup the models, simply run the 
+2. (Optional) This is run automatically when you execute for the first time. However, if you'd like to setup the models, simply run [`./init_models.sh`](init_models.sh) to download the required model checkpoints
 
 ### Execution
 
